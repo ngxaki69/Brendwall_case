@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['192.168.0.103', '127.0.0.1', 'localhost']
 INSTALLED_APPS = [
     'frontend.apps.FrontendConfig',
     'product.apps.ProductConfig',
+    'comments.apps.CommentsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
